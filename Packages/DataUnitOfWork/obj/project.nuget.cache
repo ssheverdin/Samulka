@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "LpR9m5bAohAw4YIp7Y3m4IGeNpJ+sMSSkVkIhsNlXkXMVb2IIZYlg9Y3eAaVR808b3SVcPk55E7sNDx+JEwh7w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\vsheverdin\\source\\gitrepos\\personal\\Samulka\\Packages\\DataUnitOfWork\\DataUnitOfWork.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vsheverdin\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\vsheverdin\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
