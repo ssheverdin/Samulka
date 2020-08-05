@@ -1,0 +1,83 @@
+8/5/2020 3:21:31 PM	This log contains information about the import schema operation into project 'AdventureWorksLT' on computer 'SSHEVERDIN' by user 'vsheverdin'.
+8/5/2020 3:21:31 PM	Import of database schema has started.
+8/5/2020 3:21:35 PM	Gathering logins
+8/5/2020 3:23:58 PM	Gathering database credentials
+8/5/2020 3:23:58 PM	Gathering database options
+8/5/2020 3:23:58 PM	Gathering generic database scoped configuration option
+8/5/2020 3:23:58 PM	Gathering users
+8/5/2020 3:23:58 PM	Gathering roles
+8/5/2020 3:24:00 PM	Gathering application roles
+8/5/2020 3:24:00 PM	Gathering role memberships
+8/5/2020 3:24:00 PM	Gathering filegroups
+8/5/2020 3:24:00 PM	Gathering full-text catalogs
+8/5/2020 3:24:00 PM	Gathering assemblies
+8/5/2020 3:24:00 PM	Gathering certificates
+8/5/2020 3:24:00 PM	Gathering symmetric keys
+8/5/2020 3:24:00 PM	Gathering encrypted symmetric keys
+8/5/2020 3:24:00 PM	Gathering schemas
+8/5/2020 3:24:00 PM	Gathering XML schema collections
+8/5/2020 3:24:00 PM	Gathering user-defined data types
+8/5/2020 3:24:00 PM	Gathering user-defined types
+8/5/2020 3:24:00 PM	Gathering table types
+8/5/2020 3:24:00 PM	Gathering unique keys for table types
+8/5/2020 3:24:00 PM	Gathering primary keys for table types
+8/5/2020 3:24:02 PM	Gathering indexes for table types
+8/5/2020 3:24:02 PM	Gathering check constraints for table types
+8/5/2020 3:24:02 PM	Gathering default constraints for table types
+8/5/2020 3:24:02 PM	Gathering partition functions
+8/5/2020 3:24:02 PM	Gathering partition schemes
+8/5/2020 3:24:02 PM	Gathering functions
+8/5/2020 3:24:02 PM	Gathering encrypted functions
+8/5/2020 3:24:04 PM	Gathering aggregates
+8/5/2020 3:24:04 PM	Gathering procedures
+8/5/2020 3:24:04 PM	Gathering encrypted procedures
+8/5/2020 3:24:04 PM	Gathering tables
+8/5/2020 3:24:05 PM	Gathering primary keys
+8/5/2020 3:24:05 PM	Gathering unique constraints
+8/5/2020 3:24:05 PM	Gathering foreign keys
+8/5/2020 3:24:05 PM	Gathering default constraints
+8/5/2020 3:24:05 PM	Gathering check constraints
+8/5/2020 3:24:05 PM	Gathering views
+8/5/2020 3:24:05 PM	Gathering encrypted views
+8/5/2020 3:24:05 PM	Gathering indexes
+8/5/2020 3:24:05 PM	Gathering statistics
+8/5/2020 3:24:05 PM	Gathering full-text index stoplists
+8/5/2020 3:24:05 PM	Gathering search property lists
+8/5/2020 3:24:05 PM	Gathering search properties
+8/5/2020 3:24:05 PM	Gathering full-text indexes
+8/5/2020 3:24:05 PM	Gathering column store indexes
+8/5/2020 3:24:06 PM	Gathering spatial indexes
+8/5/2020 3:24:06 PM	Gathering XML indexes
+8/5/2020 3:24:06 PM	Gathering Selective XML indexes
+8/5/2020 3:24:06 PM	Gathering encrypted triggers
+8/5/2020 3:24:06 PM	Gathering triggers
+8/5/2020 3:24:06 PM	Gathering encrypted and clr ddl triggers
+8/5/2020 3:24:06 PM	Gathering ddl triggers
+8/5/2020 3:24:06 PM	Creating edge constraints
+8/5/2020 3:24:06 PM	Gathering synonyms
+8/5/2020 3:24:06 PM	Gathering defaults
+8/5/2020 3:24:06 PM	Gathering data constraint uddt bindings
+8/5/2020 3:24:06 PM	Gathering rules
+8/5/2020 3:24:06 PM	Gathering data constraint uddt bindings
+8/5/2020 3:24:06 PM	Gathering message types
+8/5/2020 3:24:06 PM	Gathering queues
+8/5/2020 3:24:06 PM	Gathering contracts
+8/5/2020 3:24:06 PM	Gathering services
+8/5/2020 3:24:06 PM	Gathering event notifications
+8/5/2020 3:24:06 PM	Gathering remote service bindings
+8/5/2020 3:24:06 PM	Gathering broker priorities
+8/5/2020 3:24:06 PM	Gathering signatures
+8/5/2020 3:24:06 PM	Gathering data compression options
+8/5/2020 3:24:06 PM	Gathering sequence types
+8/5/2020 3:24:06 PM	Gathering security policies
+8/5/2020 3:24:06 PM	Gather column encryption keys
+8/5/2020 3:24:06 PM	Gathering column master keys
+8/5/2020 3:24:06 PM	Gathering external data sources
+8/5/2020 3:24:06 PM	Gathering external tables
+8/5/2020 3:24:06 PM	Gathering extended properties
+8/5/2020 3:24:08 PM	Gathering logins
+8/5/2020 3:24:09 PM	Scanning project for duplicate elements
+8/5/2020 3:24:10 PM	Finished duplicate element processing
+8/5/2020 3:24:11 PM	Finished importing database.
+8/5/2020 3:24:11 PM	A summary of the import was saved to the following location: C:\Users\vsheverdin\source\gitrepos\personal\Samulka\Database\SamulkaSqlServer\AdventureWorksLT\Import Schema Logs\AdventureWorksLT_20200805082131.log
+8/5/2020 3:24:11 PM	Click Finish to continue...
