@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SharpScriptRunner": {
+      "commandName": "Project",
+      "commandLineArgs": "|ass Test -in1MyTable -in2MyPath"
+    }
+  }
+}

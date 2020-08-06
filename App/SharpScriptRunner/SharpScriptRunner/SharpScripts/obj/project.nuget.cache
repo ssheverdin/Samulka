@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "MuffFt6FM5J1ZOUafkPgbI6blh0UKAT8nr+cqi8NLYk+8MFowDnIxkfygKPGSbOT5kzoNXrVWG7Ti7dq8h5miQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\vsheverdin\\source\\gitrepos\\personal\\Samulka\\App\\SharpScriptRunner\\SharpScriptRunner\\SharpScripts\\SharpScripts.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vsheverdin\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.6\\microsoft.extensions.logging.abstractions.3.1.6.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SharpScripts": {
+      "commandName": "Project",
+      "commandLineArgs": "|asd Tert -in1MyTable -in2MyPath"
+    }
+  }
+}
