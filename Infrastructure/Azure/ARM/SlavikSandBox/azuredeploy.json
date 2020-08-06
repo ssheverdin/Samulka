@@ -1,8 +1,78 @@
 {
   "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
   "contentVersion": "1.0.0.0",
-  "parameters": {},
+  "parameters": {
+    "vaults_kv_samulka_name": {
+      "defaultValue": "kv-samulka",
+      "type": "String"
+    }
+  },
   "variables": {},
-  "resources": [],
+  "resources": [
+    {
+      "type": "Microsoft.KeyVault/vaults",
+      "apiVersion": "2016-10-01",
+      "name": "[parameters('vaults_kv_samulka_name')]",
+      "location": "centralus",
+      "tags": {
+        "CostCenter": "TBD"
+      },
+      "properties": {
+        "sku": {
+          "family": "A",
+          "name": "Standard"
+        },
+        "tenantId": "f2066202-08c0-4832-a4b4-7fa0855bb8ed",
+        "accessPolicies": [
+          {
+            "tenantId": "f2066202-08c0-4832-a4b4-7fa0855bb8ed",
+            "objectId": "97bad01d-5e82-4354-b819-3049c3937a55",
+            "permissions": {
+              "keys": [
+                "Get",
+                "List",
+                "Update",
+                "Create",
+                "Import",
+                "Delete",
+                "Recover",
+                "Backup",
+                "Restore"
+              ],
+              "secrets": [
+                "Get",
+                "List",
+                "Set",
+                "Delete",
+                "Recover",
+                "Backup",
+                "Restore"
+              ],
+              "certificates": [
+                "Get",
+                "List",
+                "Update",
+                "Create",
+                "Import",
+                "Delete",
+                "Recover",
+                "Backup",
+                "Restore",
+                "ManageContacts",
+                "ManageIssuers",
+                "GetIssuers",
+                "ListIssuers",
+                "SetIssuers",
+                "DeleteIssuers"
+              ]
+            }
+          }
+        ],
+        "enabledForDeployment": true,
+        "enabledForDiskEncryption": false,
+        "enabledForTemplateDeployment": true
+      }
+    }
+  ],
   "outputs": {}
 }

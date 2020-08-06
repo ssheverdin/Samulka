@@ -7,6 +7,8 @@ Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DevopsOperations", "DevopsO
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SqlOperations", "SqlOperations\SqlOperations.sqlproj", "{5E7C22FB-0F65-4A81-85E6-96881C4F4FA1}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "AdventureWorksLT", "AdventureWorksLT\AdventureWorksLT.sqlproj", "{A2950FE2-9565-4162-BBD2-419207EC4600}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,12 @@ Global
 		{5E7C22FB-0F65-4A81-85E6-96881C4F4FA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E7C22FB-0F65-4A81-85E6-96881C4F4FA1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5E7C22FB-0F65-4A81-85E6-96881C4F4FA1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A2950FE2-9565-4162-BBD2-419207EC4600}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2950FE2-9565-4162-BBD2-419207EC4600}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2950FE2-9565-4162-BBD2-419207EC4600}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A2950FE2-9565-4162-BBD2-419207EC4600}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2950FE2-9565-4162-BBD2-419207EC4600}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2950FE2-9565-4162-BBD2-419207EC4600}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
