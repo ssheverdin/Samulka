@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OoKoOUaCw2KN3sawAQ4N2ny3Sz1wNVhJNytweXxAoTEKkNp9h+UOcbvbJImNB5szvtIS/5eb9eiMoyRyYNLJdQ==",
+  "dgSpecHash": "2uBB7zehypg3HNQNWzzKc0stKdADB6Yo3Jg2E+o1UDtlF/rjGXDiS3wVyY1U6JbgsTYIMzZJilfwERIPjyo1gA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vsheverdin\\source\\repos\\DataAttributeScanner\\DataAttributeScannerContracts\\DataAttributeScannerContracts.csproj",
+  "projectFilePath": "C:\\Users\\vsheverdin\\source\\gitrepos\\personal\\Samulka\\Service\\DataAttributeDiscoveryService\\DataAttributeScannerContracts\\DataAttributeScannerContracts.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vsheverdin\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\vsheverdin\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

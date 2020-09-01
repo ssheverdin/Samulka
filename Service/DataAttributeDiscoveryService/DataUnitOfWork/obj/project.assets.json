@@ -1531,11 +1531,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vsheverdin\\source\\repos\\DataAttributeScanner\\DataUnitOfWork\\DataUnitOfWork.csproj",
+      "projectUniqueName": "C:\\Users\\vsheverdin\\source\\gitrepos\\personal\\Samulka\\Service\\DataAttributeDiscoveryService\\DataUnitOfWork\\DataUnitOfWork.csproj",
       "projectName": "DataUnitOfWork",
-      "projectPath": "C:\\Users\\vsheverdin\\source\\repos\\DataAttributeScanner\\DataUnitOfWork\\DataUnitOfWork.csproj",
+      "projectPath": "C:\\Users\\vsheverdin\\source\\gitrepos\\personal\\Samulka\\Service\\DataAttributeDiscoveryService\\DataUnitOfWork\\DataUnitOfWork.csproj",
       "packagesPath": "C:\\Users\\vsheverdin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vsheverdin\\source\\repos\\DataAttributeScanner\\DataUnitOfWork\\obj\\",
+      "outputPath": "C:\\Users\\vsheverdin\\source\\gitrepos\\personal\\Samulka\\Service\\DataAttributeDiscoveryService\\DataUnitOfWork\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

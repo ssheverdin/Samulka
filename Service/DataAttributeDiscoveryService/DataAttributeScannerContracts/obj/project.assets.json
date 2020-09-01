@@ -186,11 +186,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vsheverdin\\source\\repos\\DataAttributeScanner\\DataAttributeScannerContracts\\DataAttributeScannerContracts.csproj",
+      "projectUniqueName": "C:\\Users\\vsheverdin\\source\\gitrepos\\personal\\Samulka\\Service\\DataAttributeDiscoveryService\\DataAttributeScannerContracts\\DataAttributeScannerContracts.csproj",
       "projectName": "DataAttributeScannerContracts",
-      "projectPath": "C:\\Users\\vsheverdin\\source\\repos\\DataAttributeScanner\\DataAttributeScannerContracts\\DataAttributeScannerContracts.csproj",
+      "projectPath": "C:\\Users\\vsheverdin\\source\\gitrepos\\personal\\Samulka\\Service\\DataAttributeDiscoveryService\\DataAttributeScannerContracts\\DataAttributeScannerContracts.csproj",
       "packagesPath": "C:\\Users\\vsheverdin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vsheverdin\\source\\repos\\DataAttributeScanner\\DataAttributeScannerContracts\\obj\\",
+      "outputPath": "C:\\Users\\vsheverdin\\source\\gitrepos\\personal\\Samulka\\Service\\DataAttributeDiscoveryService\\DataAttributeScannerContracts\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

@@ -1,0 +1,61 @@
+﻿@typeparam TItem
+
+    <tr class="@_rowCssClass" @onclick="() => OnClick.InvokeAsync(this)">
+        @foreach (var column in Columns.Where(i => i.Value.IsVisible).OrderBy(i => i.Value.Order))
+        {
+            var property = typeof(TItem).GetProperty(column.Value.Field);
+            if (property != null)
+            {
+                string value = property.GetValue(Value).ToString();
+                string TrancatedValue = column.Value.TrancateCharacters.HasValue ?
+                    string.Concat(value.Substring(0, column.Value.TrancateCharacters.Value), " ...") : value;
+
+                if (column.Value.DataTemplate != null)
+                {
+                    <td>
+                        @column.Value.DataTemplate(Value)
+                    </td>
+                }
+                else
+                {
+                    <td>
+                        @if (column.Value.TextSmall)
+                        {
+                            <small class="customtooltip">
+                                @TrancatedValue
+                                <span class="customtooltiptext">@value</span>
+                            </small>
+                        }
+                        else
+                        {
+                            <span>@value</span>
+                        }
+
+                    </td>
+                }
+
+            }
+            else if (column.Value.DataTemplate != null)
+            {
+                <td>
+                    @column.Value.DataTemplate
+                </td>
+            }
+        }
+    </tr>
+
+
+@code {
+
+    private string _rowCssClass => CssBuilder.CssClass().AddClass("table-active", Active).Build();
+
+    [Parameter]
+    public TItem Value { get; set; }
+    [Parameter]
+    public bool Active { get; set; }
+    [Parameter]
+    public IDictionary<string,GridColumn> Columns { get; set; }
+
+    [Parameter]
+    public EventCallback<GridRow<TItem>> OnClick { get; set; }
+}

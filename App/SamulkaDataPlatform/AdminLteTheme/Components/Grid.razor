@@ -1,0 +1,212 @@
+﻿
+    <style>
+        .customtooltip {
+            /*position: relative;
+            display: inline-block;
+            border-bottom: 1px dotted black;*/
+            /*white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;*/
+            
+            display: inline-block;
+            max-width: 300px;
+        }
+
+            .customtooltip .customtooltiptext {
+                visibility: hidden;
+                width: 300px;
+                background-color: white;
+                color: black;
+                text-align: center;
+                border-radius: 6px;
+                padding: 5px 0;
+                /* Position the tooltip */
+                position: absolute;
+                z-index: 1;
+            }
+
+            .customtooltip:hover .customtooltiptext {
+                visibility: visible;
+            }
+    </style>
+
+@inherits GridBase
+@typeparam TItem
+
+
+<CascadingValue Value="@this">
+    @ChildContent
+</CascadingValue>
+
+
+<Card>
+    @if (!string.IsNullOrEmpty(Title))
+    {
+        <CardHeader Title="@Title"></CardHeader>
+    }
+    <CardBody class="@_cardCssClass" style="@_cardStyle">
+        @if (Data == null)
+        {
+            <span>Loading...</span>
+        }
+        else
+        {
+            <table class="@_cssClass">
+                <thead>
+                    <tr>
+                        @foreach (var column in _columns.Where(i => i.Value.IsVisible).OrderBy(i => i.Value.Order))
+                        {
+                            if (column.Value.TitleTemplate != null)
+                            {
+                                <th>
+                                    @column.Value.TitleTemplate
+                                </th>
+                            }
+                            else
+                            {
+                                <th>
+                                    @column.Value.Title
+                                </th>
+                            }
+
+                        }
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Data)
+                    {
+                        <GridRow Value="item" Columns="_columns" />
+                            
+                        
+                        @*<tr>
+                            @foreach (var column in _columns.Where(i => i.Value.IsVisible).OrderBy(i => i.Value.Order))
+                            {
+                                var property = item.GetType().GetProperty(column.Value.Field);
+                                if (property != null)
+                                {
+                                    string value = property.GetValue(item).ToString();
+                                    string TrancatedValue = column.Value.TrancateCharacters.HasValue ? 
+                                        string.Concat(value.Substring(0, column.Value.TrancateCharacters.Value)," ...") : value;
+                                    
+                                    if (column.Value.DataTemplate != null)
+                                    {
+                                        <td>
+                                            @column.Value.DataTemplate(item)
+                                        </td>
+                                    }
+                                    else
+                                    {
+                                        <td>
+                                            @if (column.Value.TextSmall)
+                                            {
+                                                <small class="customtooltip">
+                                                    @TrancatedValue
+                                                    <span class="customtooltiptext">@value</span>
+                                                </small>
+                                            }
+                                            else
+                                            {
+                                                <span>@value</span>
+                                            }
+
+                                        </td>
+                                    }
+
+                                }
+                                else if (column.Value.DataTemplate != null)
+                                {
+                                    <td>
+                                        @column.Value.DataTemplate
+                                    </td>
+                                }
+                            }
+                        </tr>*@
+                    }
+                </tbody>
+            </table>
+        }
+    </CardBody>
+</Card>
+
+
+
+@code{
+
+    //Visual
+    [Parameter]
+    public string Title { get; set; }
+    [Parameter]
+    public bool Bordered { get; set; }
+    [Parameter]
+    public bool Condensed { get; set; }
+    [Parameter]
+    public bool Striped { get; set; }
+    [Parameter]
+    public bool Hover { get; set; }
+    [Parameter]
+    public int? MaxHeight { get; set; }
+    [Parameter]
+    public bool HeaderFixed { get; set; }
+    [Parameter]
+    public bool Selectable { get; set; }
+
+    //Data
+    [Parameter]
+    public RenderFragment ChildContent { get; set; }
+    [Parameter]
+    public IReadOnlyList<TItem> Data { get; set; }
+
+
+    //Functional
+    public bool Pageable { get; set; }
+    public bool Searchable { get; set; }
+
+
+
+    private string _cssClass => CssBuilder.CssClass()
+        .AddClass("table")
+
+        .AddClass("table-bordered", Bordered)
+        .AddClass("table-sm", Condensed)
+        .AddClass("table-striped",Striped)
+        .AddClass("table-hover",Hover)
+        .AddClass("text-nowrap",MaxHeight.HasValue)
+        .AddClass("table-head-fixed",MaxHeight.HasValue && HeaderFixed)
+        .Build();
+    private string _cardCssClass => CssBuilder.CssClass()
+        .AddClass("p0")
+
+        .AddClass("table-responsive",MaxHeight.HasValue)
+        .Build();
+    private string _cardStyle => MaxHeight.HasValue ? "height: 300px;" : "";
+
+    protected override void OnInitialized()
+    {
+        GenerateColumns();
+        SetPageable();
+        base.OnInitialized();
+    }
+
+    public void GenerateColumns()
+    {
+        var dataType = typeof(TItem);
+        if(dataType != null)
+        {
+            var properties = dataType.GetProperties().ToList();
+            foreach (var property in properties)
+            {
+                var column = new GridColumn();
+                column.SetColumn(property);
+                _columns.Add(property.Name, column );
+            }
+        }
+    }
+
+
+
+    public void SetPageable()
+    {
+
+    }
+
+}

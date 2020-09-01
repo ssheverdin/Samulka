@@ -6214,11 +6214,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vsheverdin\\source\\repos\\DataAttributeScanner\\MetadataDiscoveryService\\MetadataDiscoveryService.csproj",
+      "projectUniqueName": "C:\\Users\\vsheverdin\\source\\gitrepos\\personal\\Samulka\\Service\\DataAttributeDiscoveryService\\MetadataDiscoveryService\\MetadataDiscoveryService.csproj",
       "projectName": "MetadataDiscoveryService",
-      "projectPath": "C:\\Users\\vsheverdin\\source\\repos\\DataAttributeScanner\\MetadataDiscoveryService\\MetadataDiscoveryService.csproj",
+      "projectPath": "C:\\Users\\vsheverdin\\source\\gitrepos\\personal\\Samulka\\Service\\DataAttributeDiscoveryService\\MetadataDiscoveryService\\MetadataDiscoveryService.csproj",
       "packagesPath": "C:\\Users\\vsheverdin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vsheverdin\\source\\repos\\DataAttributeScanner\\MetadataDiscoveryService\\obj\\",
+      "outputPath": "C:\\Users\\vsheverdin\\source\\gitrepos\\personal\\Samulka\\Service\\DataAttributeDiscoveryService\\MetadataDiscoveryService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -6239,8 +6239,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\vsheverdin\\source\\repos\\DataAttributeScanner\\DataAttributeScannerContracts\\DataAttributeScannerContracts.csproj": {
-              "projectPath": "C:\\Users\\vsheverdin\\source\\repos\\DataAttributeScanner\\DataAttributeScannerContracts\\DataAttributeScannerContracts.csproj"
+            "C:\\Users\\vsheverdin\\source\\gitrepos\\personal\\Samulka\\Service\\DataAttributeDiscoveryService\\DataAttributeScannerContracts\\DataAttributeScannerContracts.csproj": {
+              "projectPath": "C:\\Users\\vsheverdin\\source\\gitrepos\\personal\\Samulka\\Service\\DataAttributeDiscoveryService\\DataAttributeScannerContracts\\DataAttributeScannerContracts.csproj"
             }
           }
         }

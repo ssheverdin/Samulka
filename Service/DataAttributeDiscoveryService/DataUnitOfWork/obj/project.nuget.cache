@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vAhZfqvAVuF8EnE4jTd5hf1BgJwlL9imDCC2fPO2kLRxS9Mng/+/rvaYhdthjqKoqMtkOEWGO/TDsw2D01ROxg==",
+  "dgSpecHash": "CM1yDrmWS2L9ajFdZRrq4Zd7okKo1rc4RkFOnWJxVZLePfmPDBumSIimT2q3xJ4q3VrKTdWIQjWBRb4yak4PsA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vsheverdin\\source\\repos\\DataAttributeScanner\\DataUnitOfWork\\DataUnitOfWork.csproj",
+  "projectFilePath": "C:\\Users\\vsheverdin\\source\\gitrepos\\personal\\Samulka\\Service\\DataAttributeDiscoveryService\\DataUnitOfWork\\DataUnitOfWork.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vsheverdin\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\vsheverdin\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LEiBh+J2PxISKUDhvUr6V/jqOfTK4VntuUnKHsBn44kO3kCercRFOUrNUXhOZ5kwT52CZiHoY/yjmPbwUvHBoQ==",
+  "dgSpecHash": "hbwA2y7QVRsHqGmPE+EM/iJ1pE84RQbS1usFnp66sKh8ErR2G1WDshJfEMPI15BYFQbNXSQWfZ85DejDzujENA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vsheverdin\\source\\repos\\DataAttributeScanner\\MetadataDiscoveryService\\MetadataDiscoveryService.csproj",
+  "projectFilePath": "C:\\Users\\vsheverdin\\source\\gitrepos\\personal\\Samulka\\Service\\DataAttributeDiscoveryService\\MetadataDiscoveryService\\MetadataDiscoveryService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vsheverdin\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\vsheverdin\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

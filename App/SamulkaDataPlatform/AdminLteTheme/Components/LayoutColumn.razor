@@ -1,0 +1,17 @@
+﻿<div class="@cssClass">
+    @ChildContent
+</div>
+
+@code {
+
+    public string cssClass => CssBuilder.CssClass()
+        .AddClass($"col-md-{Md}",Md.HasValue)
+        .AddClass("col-md-12", !Md.HasValue)
+        .Build();
+
+    [Parameter]
+    public int? Md { get; set; }
+    [Parameter]
+    public RenderFragment ChildContent { get; set; }
+
+}

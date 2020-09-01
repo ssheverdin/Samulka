@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vsheverdin\\source\\repos\\DataAttributeScanner\\DataAttributeScannerApi\\DataAttributeScannerApi.csproj": {}
+    "C:\\Users\\vsheverdin\\source\\gitrepos\\personal\\Samulka\\Service\\DataAttributeDiscoveryService\\DataAttributeScannerApi\\DataAttributeScannerApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vsheverdin\\source\\repos\\DataAttributeScanner\\DataAttributeScannerApi\\DataAttributeScannerApi.csproj": {
+    "C:\\Users\\vsheverdin\\source\\gitrepos\\personal\\Samulka\\Service\\DataAttributeDiscoveryService\\DataAttributeScannerApi\\DataAttributeScannerApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vsheverdin\\source\\repos\\DataAttributeScanner\\DataAttributeScannerApi\\DataAttributeScannerApi.csproj",
+        "projectUniqueName": "C:\\Users\\vsheverdin\\source\\gitrepos\\personal\\Samulka\\Service\\DataAttributeDiscoveryService\\DataAttributeScannerApi\\DataAttributeScannerApi.csproj",
         "projectName": "DataAttributeScannerApi",
-        "projectPath": "C:\\Users\\vsheverdin\\source\\repos\\DataAttributeScanner\\DataAttributeScannerApi\\DataAttributeScannerApi.csproj",
+        "projectPath": "C:\\Users\\vsheverdin\\source\\gitrepos\\personal\\Samulka\\Service\\DataAttributeDiscoveryService\\DataAttributeScannerApi\\DataAttributeScannerApi.csproj",
         "packagesPath": "C:\\Users\\vsheverdin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vsheverdin\\source\\repos\\DataAttributeScanner\\DataAttributeScannerApi\\obj\\",
+        "outputPath": "C:\\Users\\vsheverdin\\source\\gitrepos\\personal\\Samulka\\Service\\DataAttributeDiscoveryService\\DataAttributeScannerApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -32,11 +32,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\vsheverdin\\source\\repos\\DataAttributeScanner\\DataAttributeScannerContracts\\DataAttributeScannerContracts.csproj": {
-                "projectPath": "C:\\Users\\vsheverdin\\source\\repos\\DataAttributeScanner\\DataAttributeScannerContracts\\DataAttributeScannerContracts.csproj"
+              "C:\\Users\\vsheverdin\\source\\gitrepos\\personal\\Samulka\\Service\\DataAttributeDiscoveryService\\DataAttributeScannerContracts\\DataAttributeScannerContracts.csproj": {
+                "projectPath": "C:\\Users\\vsheverdin\\source\\gitrepos\\personal\\Samulka\\Service\\DataAttributeDiscoveryService\\DataAttributeScannerContracts\\DataAttributeScannerContracts.csproj"
               },
-              "C:\\Users\\vsheverdin\\source\\repos\\DataAttributeScanner\\DataAttributeScanner\\DataAttributeScannerLogic.csproj": {
-                "projectPath": "C:\\Users\\vsheverdin\\source\\repos\\DataAttributeScanner\\DataAttributeScanner\\DataAttributeScannerLogic.csproj"
+              "C:\\Users\\vsheverdin\\source\\gitrepos\\personal\\Samulka\\Service\\DataAttributeDiscoveryService\\DataAttributeScanner\\DataAttributeScannerLogic.csproj": {
+                "projectPath": "C:\\Users\\vsheverdin\\source\\gitrepos\\personal\\Samulka\\Service\\DataAttributeDiscoveryService\\DataAttributeScanner\\DataAttributeScannerLogic.csproj"
               }
             }
           }
@@ -81,14 +81,14 @@
         }
       }
     },
-    "C:\\Users\\vsheverdin\\source\\repos\\DataAttributeScanner\\DataAttributeScannerContracts\\DataAttributeScannerContracts.csproj": {
+    "C:\\Users\\vsheverdin\\source\\gitrepos\\personal\\Samulka\\Service\\DataAttributeDiscoveryService\\DataAttributeScannerContracts\\DataAttributeScannerContracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vsheverdin\\source\\repos\\DataAttributeScanner\\DataAttributeScannerContracts\\DataAttributeScannerContracts.csproj",
+        "projectUniqueName": "C:\\Users\\vsheverdin\\source\\gitrepos\\personal\\Samulka\\Service\\DataAttributeDiscoveryService\\DataAttributeScannerContracts\\DataAttributeScannerContracts.csproj",
         "projectName": "DataAttributeScannerContracts",
-        "projectPath": "C:\\Users\\vsheverdin\\source\\repos\\DataAttributeScanner\\DataAttributeScannerContracts\\DataAttributeScannerContracts.csproj",
+        "projectPath": "C:\\Users\\vsheverdin\\source\\gitrepos\\personal\\Samulka\\Service\\DataAttributeDiscoveryService\\DataAttributeScannerContracts\\DataAttributeScannerContracts.csproj",
         "packagesPath": "C:\\Users\\vsheverdin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vsheverdin\\source\\repos\\DataAttributeScanner\\DataAttributeScannerContracts\\obj\\",
+        "outputPath": "C:\\Users\\vsheverdin\\source\\gitrepos\\personal\\Samulka\\Service\\DataAttributeDiscoveryService\\DataAttributeScannerContracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -141,14 +141,14 @@
         }
       }
     },
-    "C:\\Users\\vsheverdin\\source\\repos\\DataAttributeScanner\\DataAttributeScanner\\DataAttributeScannerLogic.csproj": {
+    "C:\\Users\\vsheverdin\\source\\gitrepos\\personal\\Samulka\\Service\\DataAttributeDiscoveryService\\DataAttributeScanner\\DataAttributeScannerLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vsheverdin\\source\\repos\\DataAttributeScanner\\DataAttributeScanner\\DataAttributeScannerLogic.csproj",
+        "projectUniqueName": "C:\\Users\\vsheverdin\\source\\gitrepos\\personal\\Samulka\\Service\\DataAttributeDiscoveryService\\DataAttributeScanner\\DataAttributeScannerLogic.csproj",
         "projectName": "DataAttributeScannerLogic",
-        "projectPath": "C:\\Users\\vsheverdin\\source\\repos\\DataAttributeScanner\\DataAttributeScanner\\DataAttributeScannerLogic.csproj",
+        "projectPath": "C:\\Users\\vsheverdin\\source\\gitrepos\\personal\\Samulka\\Service\\DataAttributeDiscoveryService\\DataAttributeScanner\\DataAttributeScannerLogic.csproj",
         "packagesPath": "C:\\Users\\vsheverdin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vsheverdin\\source\\repos\\DataAttributeScanner\\DataAttributeScanner\\obj\\",
+        "outputPath": "C:\\Users\\vsheverdin\\source\\gitrepos\\personal\\Samulka\\Service\\DataAttributeDiscoveryService\\DataAttributeScanner\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -169,14 +169,14 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\vsheverdin\\source\\repos\\DataAttributeScanner\\DataAttributeScannerContracts\\DataAttributeScannerContracts.csproj": {
-                "projectPath": "C:\\Users\\vsheverdin\\source\\repos\\DataAttributeScanner\\DataAttributeScannerContracts\\DataAttributeScannerContracts.csproj"
+              "C:\\Users\\vsheverdin\\source\\gitrepos\\personal\\Samulka\\Service\\DataAttributeDiscoveryService\\DataAttributeScannerContracts\\DataAttributeScannerContracts.csproj": {
+                "projectPath": "C:\\Users\\vsheverdin\\source\\gitrepos\\personal\\Samulka\\Service\\DataAttributeDiscoveryService\\DataAttributeScannerContracts\\DataAttributeScannerContracts.csproj"
               },
-              "C:\\Users\\vsheverdin\\source\\repos\\DataAttributeScanner\\MetadataDiscoveryService\\MetadataDiscoveryService.csproj": {
-                "projectPath": "C:\\Users\\vsheverdin\\source\\repos\\DataAttributeScanner\\MetadataDiscoveryService\\MetadataDiscoveryService.csproj"
+              "C:\\Users\\vsheverdin\\source\\gitrepos\\personal\\Samulka\\Service\\DataAttributeDiscoveryService\\MetadataDiscoveryService\\MetadataDiscoveryService.csproj": {
+                "projectPath": "C:\\Users\\vsheverdin\\source\\gitrepos\\personal\\Samulka\\Service\\DataAttributeDiscoveryService\\MetadataDiscoveryService\\MetadataDiscoveryService.csproj"
               },
-              "C:\\Users\\vsheverdin\\source\\repos\\DataAttributeScanner\\MetadataStoreDataAccess\\MetadataStoreDataAccess.csproj": {
-                "projectPath": "C:\\Users\\vsheverdin\\source\\repos\\DataAttributeScanner\\MetadataStoreDataAccess\\MetadataStoreDataAccess.csproj"
+              "C:\\Users\\vsheverdin\\source\\gitrepos\\personal\\Samulka\\Service\\DataAttributeDiscoveryService\\MetadataStoreDataAccess\\MetadataStoreDataAccess.csproj": {
+                "projectPath": "C:\\Users\\vsheverdin\\source\\gitrepos\\personal\\Samulka\\Service\\DataAttributeDiscoveryService\\MetadataStoreDataAccess\\MetadataStoreDataAccess.csproj"
               }
             }
           }
@@ -211,14 +211,14 @@
         }
       }
     },
-    "C:\\Users\\vsheverdin\\source\\repos\\DataAttributeScanner\\DataUnitOfWork\\DataUnitOfWork.csproj": {
+    "C:\\Users\\vsheverdin\\source\\gitrepos\\personal\\Samulka\\Service\\DataAttributeDiscoveryService\\DataUnitOfWork\\DataUnitOfWork.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vsheverdin\\source\\repos\\DataAttributeScanner\\DataUnitOfWork\\DataUnitOfWork.csproj",
+        "projectUniqueName": "C:\\Users\\vsheverdin\\source\\gitrepos\\personal\\Samulka\\Service\\DataAttributeDiscoveryService\\DataUnitOfWork\\DataUnitOfWork.csproj",
         "projectName": "DataUnitOfWork",
-        "projectPath": "C:\\Users\\vsheverdin\\source\\repos\\DataAttributeScanner\\DataUnitOfWork\\DataUnitOfWork.csproj",
+        "projectPath": "C:\\Users\\vsheverdin\\source\\gitrepos\\personal\\Samulka\\Service\\DataAttributeDiscoveryService\\DataUnitOfWork\\DataUnitOfWork.csproj",
         "packagesPath": "C:\\Users\\vsheverdin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vsheverdin\\source\\repos\\DataAttributeScanner\\DataUnitOfWork\\obj\\",
+        "outputPath": "C:\\Users\\vsheverdin\\source\\gitrepos\\personal\\Samulka\\Service\\DataAttributeDiscoveryService\\DataUnitOfWork\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -279,14 +279,14 @@
         }
       }
     },
-    "C:\\Users\\vsheverdin\\source\\repos\\DataAttributeScanner\\MetadataDiscoveryService\\MetadataDiscoveryService.csproj": {
+    "C:\\Users\\vsheverdin\\source\\gitrepos\\personal\\Samulka\\Service\\DataAttributeDiscoveryService\\MetadataDiscoveryService\\MetadataDiscoveryService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vsheverdin\\source\\repos\\DataAttributeScanner\\MetadataDiscoveryService\\MetadataDiscoveryService.csproj",
+        "projectUniqueName": "C:\\Users\\vsheverdin\\source\\gitrepos\\personal\\Samulka\\Service\\DataAttributeDiscoveryService\\MetadataDiscoveryService\\MetadataDiscoveryService.csproj",
         "projectName": "MetadataDiscoveryService",
-        "projectPath": "C:\\Users\\vsheverdin\\source\\repos\\DataAttributeScanner\\MetadataDiscoveryService\\MetadataDiscoveryService.csproj",
+        "projectPath": "C:\\Users\\vsheverdin\\source\\gitrepos\\personal\\Samulka\\Service\\DataAttributeDiscoveryService\\MetadataDiscoveryService\\MetadataDiscoveryService.csproj",
         "packagesPath": "C:\\Users\\vsheverdin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vsheverdin\\source\\repos\\DataAttributeScanner\\MetadataDiscoveryService\\obj\\",
+        "outputPath": "C:\\Users\\vsheverdin\\source\\gitrepos\\personal\\Samulka\\Service\\DataAttributeDiscoveryService\\MetadataDiscoveryService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -307,8 +307,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\vsheverdin\\source\\repos\\DataAttributeScanner\\DataAttributeScannerContracts\\DataAttributeScannerContracts.csproj": {
-                "projectPath": "C:\\Users\\vsheverdin\\source\\repos\\DataAttributeScanner\\DataAttributeScannerContracts\\DataAttributeScannerContracts.csproj"
+              "C:\\Users\\vsheverdin\\source\\gitrepos\\personal\\Samulka\\Service\\DataAttributeDiscoveryService\\DataAttributeScannerContracts\\DataAttributeScannerContracts.csproj": {
+                "projectPath": "C:\\Users\\vsheverdin\\source\\gitrepos\\personal\\Samulka\\Service\\DataAttributeDiscoveryService\\DataAttributeScannerContracts\\DataAttributeScannerContracts.csproj"
               }
             }
           }
@@ -347,14 +347,14 @@
         }
       }
     },
-    "C:\\Users\\vsheverdin\\source\\repos\\DataAttributeScanner\\MetadataStoreDataAccess\\MetadataStoreDataAccess.csproj": {
+    "C:\\Users\\vsheverdin\\source\\gitrepos\\personal\\Samulka\\Service\\DataAttributeDiscoveryService\\MetadataStoreDataAccess\\MetadataStoreDataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vsheverdin\\source\\repos\\DataAttributeScanner\\MetadataStoreDataAccess\\MetadataStoreDataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\vsheverdin\\source\\gitrepos\\personal\\Samulka\\Service\\DataAttributeDiscoveryService\\MetadataStoreDataAccess\\MetadataStoreDataAccess.csproj",
         "projectName": "MetadataStoreDataAccess",
-        "projectPath": "C:\\Users\\vsheverdin\\source\\repos\\DataAttributeScanner\\MetadataStoreDataAccess\\MetadataStoreDataAccess.csproj",
+        "projectPath": "C:\\Users\\vsheverdin\\source\\gitrepos\\personal\\Samulka\\Service\\DataAttributeDiscoveryService\\MetadataStoreDataAccess\\MetadataStoreDataAccess.csproj",
         "packagesPath": "C:\\Users\\vsheverdin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vsheverdin\\source\\repos\\DataAttributeScanner\\MetadataStoreDataAccess\\obj\\",
+        "outputPath": "C:\\Users\\vsheverdin\\source\\gitrepos\\personal\\Samulka\\Service\\DataAttributeDiscoveryService\\MetadataStoreDataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -375,11 +375,11 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\vsheverdin\\source\\repos\\DataAttributeScanner\\DataAttributeScannerContracts\\DataAttributeScannerContracts.csproj": {
-                "projectPath": "C:\\Users\\vsheverdin\\source\\repos\\DataAttributeScanner\\DataAttributeScannerContracts\\DataAttributeScannerContracts.csproj"
+              "C:\\Users\\vsheverdin\\source\\gitrepos\\personal\\Samulka\\Service\\DataAttributeDiscoveryService\\DataAttributeScannerContracts\\DataAttributeScannerContracts.csproj": {
+                "projectPath": "C:\\Users\\vsheverdin\\source\\gitrepos\\personal\\Samulka\\Service\\DataAttributeDiscoveryService\\DataAttributeScannerContracts\\DataAttributeScannerContracts.csproj"
               },
-              "C:\\Users\\vsheverdin\\source\\repos\\DataAttributeScanner\\DataUnitOfWork\\DataUnitOfWork.csproj": {
-                "projectPath": "C:\\Users\\vsheverdin\\source\\repos\\DataAttributeScanner\\DataUnitOfWork\\DataUnitOfWork.csproj"
+              "C:\\Users\\vsheverdin\\source\\gitrepos\\personal\\Samulka\\Service\\DataAttributeDiscoveryService\\DataUnitOfWork\\DataUnitOfWork.csproj": {
+                "projectPath": "C:\\Users\\vsheverdin\\source\\gitrepos\\personal\\Samulka\\Service\\DataAttributeDiscoveryService\\DataUnitOfWork\\DataUnitOfWork.csproj"
               }
             }
           }

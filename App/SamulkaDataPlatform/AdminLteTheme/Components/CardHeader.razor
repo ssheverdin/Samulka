@@ -1,0 +1,19 @@
+﻿<div class="card-header">
+    @if (!string.IsNullOrEmpty(Title))
+    {
+        <h3 class="card-title">@Title</h3>
+    }
+
+    @if (ChildContent != null)
+    {
+        @ChildContent
+    }
+</div>
+<!-- /.card-header -->
+
+@code {
+    [Parameter]
+    public string Title { get; set; }
+    [Parameter]
+    public RenderFragment ChildContent { get; set; }
+}

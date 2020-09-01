@@ -1,0 +1,21 @@
+﻿<div class="@CssClass" @attributes="Attributes">
+    @ChildContent
+</div>
+<!-- /.card-body -->
+
+@code {
+
+    private string CssClass => CssBuilder.CssClass().AddClass("card-body").AddClass(Attributes).Build();
+
+    [Parameter(CaptureUnmatchedValues = true)]
+    public Dictionary<string, object> Attributes { get; set; }
+
+    [Parameter]
+    public RenderFragment ChildContent { get; set; }
+
+    protected override void OnInitialized()
+    {
+        //RestAttributes => Attributes.Where(i => i.Key != "class");
+        base.OnInitialized();
+    }
+}

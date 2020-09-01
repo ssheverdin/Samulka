@@ -1,0 +1,51 @@
+﻿@using System.Reflection;
+@using System.Text.RegularExpressions
+
+
+@code {
+
+    private PropertyInfo _propertyInfo;
+
+    [Parameter]
+    public string Field { get; set; }
+    [Parameter]
+    public int Order { get; set; }
+    [Parameter]
+    public string Title { get; set; }
+    [Parameter]
+    public bool IsVisible { get; set; } = true;
+    [Parameter]
+    public bool TextSmall { get; set; }
+    [Parameter]
+    public int? TrancateCharacters { get; set; }
+
+    [Parameter]
+    public RenderFragment TitleTemplate { get; set; }
+    [Parameter]
+    public RenderFragment<object> DataTemplate { get; set; }
+
+
+    [CascadingParameter]
+    public GridBase Grid { get; set; }
+
+    protected override void OnInitialized()
+    {
+        Title = string.IsNullOrEmpty(Title) && !string.IsNullOrEmpty(Field) ? RemoveCamelCase(Field) : Title;
+        Grid.AddColumn(this);
+        base.OnInitialized();
+    }
+
+    public void SetColumn(PropertyInfo propertyInfo)
+    {
+        _propertyInfo = propertyInfo;
+        Field = _propertyInfo.Name;
+        Title = RemoveCamelCase(_propertyInfo.Name);
+    }
+
+    private string RemoveCamelCase(string value)
+    {
+        return Regex.Replace(Regex.Replace(value,
+        @"(\P{Ll})(\P{Ll}\p{Ll})", "$1 $2"),
+        @"(\p{Ll})(\P{Ll})", "$1 $2");
+    }
+}
